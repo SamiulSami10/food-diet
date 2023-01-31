@@ -1,10 +1,11 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 
 
 
-span{
+.orange{
     color: orange;
 }
 
@@ -47,7 +48,7 @@ h2{
     color: white;
     background-image: linear-gradient(tomato,orange);
     border-radius: 40px;
-    padding: 20px 40px;
+    padding: 15px 25px;
     text-decoration: none;
     font-weight: 800;
    
@@ -55,7 +56,7 @@ h2{
 
 
 
-.img{
+.about-me-img{
     width: 40%;
 }
 
@@ -65,8 +66,94 @@ h2{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     width: 100%;
+    background-size:cover;
 }
 
 
 
-.width-
+.recipe{
+    text-align: center;
+    padding: 0px 30%;
+    margin-bottom: 100px;
+}
+
+
+
+.recipe-item {
+    padding: 20px;
+    background: #fff;
+    width: 400px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    text-align: left;
+  }
+
+
+
+  .img {
+    width: 100%;
+    height: 400px;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+
+
+
+h3{
+    font-size: 25px;
+}
+
+
+
+.social-follow{
+    text-align: center;
+    margin-left: 18%;
+}
+
+
+
+.social{
+    border-radius: 15px;
+    padding: ;
+    margin-left: 7%;
+    margin-right: 7%;
+    box-shadow: 0px 0px 15px gray;
+}
+
+
+
+.series{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    gap: 150px;
+}
+
+
+
+footer{
+    padding: 5px;
+    text-align: center;
+    font-weight: 800;
+background-color: black;
+height: 150px;
+width: 100%;
+}
+
+
+
+.white{
+    color: white;
+}
+
+
+
+.space{
+  word-spacing: 10px;
+}
+
+
+
+.grey{
+    color: grey;
+}
